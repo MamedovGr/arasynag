@@ -22,8 +22,8 @@
     <div class="backgraund">
         <div class="container py-5">
             <div class="row py-5 align-items-center">
-                <div class="col-8"><img src="./img/01.jpeg" alt=""></div>
-                <div class="col-4 text-center">
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="col-12 col-md-8"><img src="./img/01.jpeg" alt="" class="img-thumbnail border border-0"></div>
+                <div class="col-12 col-md-4 text-center">
                     <div class="row py-5 bg-white align-items-center">
                         <div class="row display-6 fw-bold py-2">Discover something new</div>
                         <div class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsam quidem id temporibus sed voluptatibus laborum facilis,</div>
@@ -40,8 +40,8 @@
     <div class="bg-white">
         <div class="container py-5">
             <div class="row align-items-center">
-                <div class="col-6"><img src="./img/06.jpeg"  class="img-thumbnail" alt=""></div>
-                <div class="col-6">
+                <div  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="col-12 col-md-6"><img src="./img/06.jpeg"  class="img-thumbnail" alt=""></div>
+                <div class="col-12 col-md-6">
                     <div class="row py-5">
                         <div class="row display-6 fw-bold py-2">Your app is coming</div>
                         <div class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsam quidem id temporibus sed voluptatibus laborum facilis,</div>
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <div class="row py-5">
                         <div class="row display-6 fw-bold py-2">We'll find a solution for yoy</div>
                         <div class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsam quidem id temporibus sed voluptatibus laborum facilis,</div>
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6"><img src="./img/02.jpeg"  class="img-thumbnail" alt=""></div>
+                <div class="data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" class="col-12 col-md-6""><img src="./img/02.jpeg"  class="img-thumbnail" alt=""></div>
             </div>
         </div>
     </div>
@@ -69,8 +69,8 @@
     <div class="text-bg-light">
         <div class="container py-5">
             <div class="row display-4 fw-semibold py-5"><span class="text-center">What Our Fantastic Clients Say</span></div>
-            <div class="row">
-                <div class="col-4 px-5">
+            <div class="row g-4">
+                <div  data-aos="fade-up" data-aos-duration="3000" class="col-12 col-md-4 col-sm-6 px-5">
                     <div class="row bg-white py-5 px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed iste libero mollitia odit molestias autem quas ea?</div>
                     <div class="row py-2 align-items-center">
                         <div class="col-6"><img src="./img/03.jpg" class="img-thumbnail rounded-circle" alt=""></div>
@@ -85,7 +85,7 @@
                         <a href="#" class="link-info px-2"><i class="bi bi-instagram"></i></a>
                     </div>
                 </div>
-                <div class="col-4 px-5">
+                <div data-aos="fade-up" data-aos-duration="3000" class="col-12 col-md-4 col-sm-6 px-5">
                     <div class="row bg-white py-5 px-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, et harum alias eveniet illum ipsam accusantium deserunt ab mollitia a porro sed sint necessitatibus odio excepturi nesciunt aut id. Nulla.</div>
                     <div class="row py-2 align-items-center">
                         <div class="col-6"><img src="./img/04.jpg" class="img-thumbnail rounded-circle" alt=""></div>
@@ -100,7 +100,7 @@
                         <a href="#" class="link-info px-2"><i class="bi bi-instagram"></i></a>
                     </div>
                 </div>
-                <div class="col-4 px-5">
+                <div data-aos="fade-up" data-aos-duration="3000" class="col-12 col-md-4 col-sm-6 px-5">
                     <div class="row bg-white py-5 px-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, et harum alias eveniet.</div>
                     <div class="row py-2 align-items-center">
                         <div class="col-6"><img src="./img/09.jpg" class="img-thumbnail rounded-circle" alt=""></div>
@@ -119,5 +119,12 @@
         </div>
     </div>
 
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="css/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
 </body>
 </html>
